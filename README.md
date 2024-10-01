@@ -31,7 +31,7 @@ The **FashionMNIST** dataset is a collection of grayscale images of size 28x28, 
   
 - **Discriminator**: Takes both real images (from the FashionMNIST dataset) and fake images (from the generator) as input and classifies them as either real or fake. Its goal is to correctly identify whether the input image is real or generated.
 
-The **objective** of the generator is to generate images that are so realistic that the discriminator cannot distinguish them from real images, while the discriminator tries to improve its accuracy in identifying real vs. fake images. This creates a competition, which helps both networks improve.
+The **objective** of the generator is to generate images that are so realistic that the discriminator cannot distinguish them from real images, while the discriminator tries to improve its accuracy in identifying real vs. fake images. This creates competition, which helps both networks improve.
 
 ## Training
 
@@ -46,7 +46,7 @@ During each training iteration, the generator tries to fool the discriminator, a
 After training for a sufficient number of epochs, the generator is able to create images that look very similar to those in the FashionMNIST dataset. The competition between the generator and discriminator ensures that the quality of the generated images improves over time.
 
 ### Example Generated Images
-![Generated Images](path_to_generated_images.png)
+![Screenshot from 2024-10-01 23-44-27](https://github.com/user-attachments/assets/301c2ca1-941f-45bd-8999-c890842bc75c)
 
 ## How to Use
 
@@ -55,4 +55,4 @@ After training for a sufficient number of epochs, the generator is able to creat
    ```bash
    git clone https://github.com/your-username/Image-Generator-GAN.git
    ```
-2. **Run on google colab if possible or it will also run on device but can consume a lot of CPU computing.**
+2. **Run on Google Colab if possible or it will also run on the device but can consume a lot of CPU computing.**
